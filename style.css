@@ -1,0 +1,36 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; 
+    font-family: 'Montserrat', sans-serif;}
+.site-header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(57deg, #b18a78, #210586);
+    clip-path: polygon(0% 0%, 100% 0%,
+    100% 85%, 0% 100%)
+}
+.firstline{
+    height: 50px; width: 100%; color: white; background-color: #0c0501;
+    text-align:right; padding-left: 50%; }
+
+.firstline ul{ width: 100%; height: 50px; display: flex; flex-direction: row; justify-content: space-around; align-items: center;}
+
+.firstline ul li{ list-style: none; font-size: 12px; font-weight: bold; text-transform: uppercase;  }
+
+nav{ width: 100%; height: 100px; display: flex;}
+
+.secondline{width: 50%; height: 100px;}
+.secondline h1{ color: white; line-height: 100px; padding-left: 50px;  }
+
+.menu{ width:50% height: 100px;  }
+.menu ul{ width: 100%; height: 50px; display: flex; 
+    flex-direction: row; justify-content: space-around; 
+    align-items: center;}
+    .menu ul li{ list-style: none; font-size: 12px; font-weight: bold; text-transform: uppercase; color: white; }
+
+    section{ display: flex; }
+    .leftside{ width: 45%; height: auto; overflow: hidden; }
+    .leftside img{  width: 600px; height: 450px; }
+    .rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px }
+    .rightside h1{ font-size: 50px; font-weight: 900; text-transform: uppercase;  }
+    .rightside p{ font-size: 1.1rem; padding: 30px 0; }
+    .rightside button{ font-size: 17px; font-weight: bold; color: white; background: linear-gradient(57deg, #b18a78, #210586); text-transform: uppercase; border-radius: 4px; padding: 20px 35px; }
+    .rightside button:hover{ background: linear-gradient(57deg, #210586, #b18a78); }   
